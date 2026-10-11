@@ -4,6 +4,8 @@ A roundtrip fidelity benchmark for document codecs, generic edition. Read → mu
 
 **As of 2026-10-11.**
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 "Lossless" is the most claimed and least measured word in document tooling. Editors and converters silently drop what they cannot represent: unknown keys, float precision, key order, trailing bytes. Marketing says compatible; users find out when their file comes back different. The industry debt is that compatibility is never a *number*.
